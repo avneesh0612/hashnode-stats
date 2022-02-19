@@ -30,7 +30,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           cardType: "summary_large_image",
         }}
       />
-      <NextNProgress />
+      <NextNProgress color="#BFDBFE" />
       <Component {...pageProps} />
     </>
   );
